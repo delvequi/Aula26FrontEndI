@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Front End I - Aula 26 - Atividade</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>MEU NOME</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Portfólio</a></li>
+                <li><a href="#">Sobre mim</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <a class="btn-menu" href="#">MENU <img src="./img/menu.png" alt="botão de menu"></a>
+    </header>
+
+    <main>
+        <!-- Modal -->
+        <div class="modal fade" id="modal-lemon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title title-modal" id="exampleModalLabel">
+                    <div class="">
+                        <h3>LEMON PIE</h3>
+                        <span class="blue-star">
+                            <ion-icon class="star" name="star"></ion-icon>
+                        </span>
+                    </div>
+                  </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./img/lemon-pie.png" alt="batman">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptas veniam, id itaque vero labore asperiores similique corrupti architecto,
+                    cumque ipsum magni harum, odio odit doloribus recusandae incidunt totam nihil eos!
+                </p>
+                </div>
+                <div class="modal-footer footer-modal">
+                  <button type="button" class="btn btn-modal" data-dismiss="modal">x Visitar Site</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-batman" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title title-modal" id="exampleModalLabel">
+                    <div class="">
+                        <h3>CV BATMAN</h3>
+                        <span class="blue-star">
+                            <ion-icon class="star" name="star"></ion-icon>
+                        </span>
+                    </div>
+                  </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./img/CVBatman.png" alt="batman">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptas veniam, id itaque vero labore asperiores similique corrupti architecto,
+                    cumque ipsum magni harum, odio odit doloribus recusandae incidunt totam nihil eos!
+                </p>
+                </div>
+                <div class="modal-footer footer-modal">
+                  <button type="button" class="btn btn-modal" data-dismiss="modal">x Visitar Site</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-supers" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title title-modal" id="exampleModalLabel">
+                    <div class="">
+                        <h3>SUPERS</h3>
+                        <span class="blue-star">
+                            <ion-icon class="star" name="star"></ion-icon>
+                        </span>
+                    </div>
+                  </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./img/super.png" alt="batman">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptas veniam, id itaque vero labore asperiores similique corrupti architecto,
+                    cumque ipsum magni harum, odio odit doloribus recusandae incidunt totam nihil eos!
+                </p>
+                </div>
+                <div class="modal-footer footer-modal">
+                  <button type="button" class="btn btn-modal" data-dismiss="modal">x Visitar Site</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-pet" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title title-modal" id="exampleModalLabel">
+                    <div class="">
+                        <h3>PET SHOP</h3>
+                        <span class="blue-star">
+                            <ion-icon class="star" name="star"></ion-icon>
+                        </span>
+                    </div>
+                  </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./img/petshop.png" alt="batman">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptas veniam, id itaque vero labore asperiores similique corrupti architecto,
+                    cumque ipsum magni harum, odio odit doloribus recusandae incidunt totam nihil eos!
+                </p>
+                </div>
+                <div class="modal-footer footer-modal">
+                  <button type="button" class="btn btn-modal" data-dismiss="modal">x Visitar Site</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-pizza" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title title-modal" id="exampleModalLabel">
+                    <div class="">
+                        <h3>PIZZARIA</h3>
+                        <span class="blue-star">
+                            <ion-icon class="star" name="star"></ion-icon>
+                        </span>
+                    </div>
+                  </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./img/pizza.png" alt="batman">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptas veniam, id itaque vero labore asperiores similique corrupti architecto,
+                    cumque ipsum magni harum, odio odit doloribus recusandae incidunt totam nihil eos!
+                </p>
+                </div>
+                <div class="modal-footer footer-modal">
+                  <button type="button" class="btn btn-modal" data-dismiss="modal">x Visitar Site</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-game" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title title-modal" id="exampleModalLabel">
+                    <div class="">
+                        <h3>GAME SHOP</h3>
+                        <span class="blue-star">
+                            <ion-icon class="star" name="star"></ion-icon>
+                        </span>
+                    </div>
+                  </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./img/gameshop.png" alt="batman">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptas veniam, id itaque vero labore asperiores similique corrupti architecto,
+                    cumque ipsum magni harum, odio odit doloribus recusandae incidunt totam nihil eos!
+                </p>
+                </div>
+                <div class="modal-footer footer-modal">
+                  <button type="button" class="btn btn-modal" data-dismiss="modal">x Visitar Site</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="container-fluid firstItem">
+            <div class="row">
+                <div class="col">
+                    <img  src="./img/avataaars.svg" alt="avatar">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2>MEU NOME</h2>
+                    <span class="white-star">
+                        <ion-icon class="star" name="star"></ion-icon>
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h5>Desenvolvedor - Entusiasta - Autodidata</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid secondItem">
+            <div class="row">
+                <div class="col">
+                    <h3>PORTFÓLIO</h3>
+                    <span class="blue-star">
+                        <ion-icon class="star" name="star"></ion-icon>
+                    </span>
+                </div>
+            </div>
+            <div class="row cards">
+                <div class="col-sm col-xl-num" data-toggle="modal" data-target="#modal-lemon">
+                    <img src="./img/lemon-pie.png" alt="Torta de Limão">
+                    <h4>Lemon Pie</h4>
+                </div>
+                <div class="col-sm col-xl-num" data-toggle="modal" data-target="#modal-batman">
+                    <img src="./img/CVBatman.png" alt="CV Batman">
+                    <h4>CV Batman</h4>
+                </div>
+                <div class="col-sm col-xl-num" data-toggle="modal" data-target="#modal-supers">
+                    <img src="./img/super.png" alt="joystick">
+                    <h4>Súpers</h4>
+                </div>
+            </div>
+            <div class="row cards">
+                <div class="col-sm col-xl-num" data-toggle="modal" data-target="#modal-pet">
+                    <img src="./img/petshop.png" alt="catdog">
+                    <h4>Pet Shop</h4>
+                </div>
+                <div class="col-sm col-xl-num" data-toggle="modal" data-target="#modal-pizza">
+                    <img src="./img/pizza.png" alt="fatia de pizza">
+                    <h4>Pizzaria</h4>
+                </div>
+                <div class="col-sm col-xl-num" data-toggle="modal" data-target="#modal-game">
+                    <img src="./img/gameshop.png" alt="joystick">
+                    <h4>Game Shop</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid thirdItem">
+            <div class="row">
+                <div class="col">
+                    <h3>SOBRE MIM</h3>
+                    <span class="white-star">
+                        <ion-icon class="star" name="star"></ion-icon>
+                    </span>
+                    
+                </div>
+            </div>
+            <div class="row dothird">
+                <div class="col-sm col-xl-num">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Deleniti incidunt accusantium officia doloremque ipsa
+                        modi quasi obcaecati laudantium quisquam neque ab odio,
+                        voluptatem necessitatibus eligendi!
+                    </p>
+                </div>
+                <div class="col-sm col-xl-num">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        A sunt deserunt porro illum quisquam, aspernatur
+                        delectus at quibusdam perspiciatis quo.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm col-xl-num">
+                    <button>
+                        
+                        <h5><ion-icon name="download-outline"></ion-icon> Baixe meu CV</h5>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container fourthItem">
+            <div class="row">
+                <div class="col-sm col-xl-num">
+                    <h3>ENTRE EM CONTATO</h3>
+                    <span class="blue-star">
+                        <ion-icon class="star" name="star"></ion-icon>
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm col-xl-num">
+                    <form>
+                        <input type="text" placeholder="Nome Completo">
+                        <input type="email" placeholder="Email">
+                        <input type="tel" placeholder="Número de telefone">
+                        <textarea cols="30" rows="5" placeholder="Mensagem"></textarea>
+                        <button>Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <div class="place">
+                <h4>MEU LUGAR</h4>
+                <h5>Rua N</h5>
+                <h5>Cidade, Estado, CEP</h5>
+            </div>
+            <div class="links">
+                <h4>VAMOS NOS CONECTAR</h4>
+                <ion-icon name="logo-facebook" class="icon"></ion-icon>
+                <ion-icon name="logo-instagram" class="icon"></ion-icon>
+                <ion-icon name="logo-linkedin" class="icon"></ion-icon>
+                <ion-icon name="logo-github" class="icon"></ion-icon>
+            </div>
+            <div class="pessoal">
+                <h4>SOBRE MIM</h4>
+                <span>Sou uma pessoa criativa e com vontade de aprender. Tenho conhecimento em HTML, CSS e Bootstrap.</span>
+            </div>
+        </div>
+        <div class="copyright">
+            <h5>Todos os direitos reservados à Mesa 02/FrontEnd 1.</h5>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous">
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
